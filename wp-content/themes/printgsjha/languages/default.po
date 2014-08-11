@@ -1,0 +1,593 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleNBright - Site5.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-16 11:27+0200\n"
+"PO-Revision-Date: 2012-08-16 11:27+0200\n"
+"Last-Translator: Bulent Sahin <wpthemess@gmail.com>\n"
+"Language-Team: Bulent Sahin <wpthemess@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: __;_e;_c;esc_attr_e;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid "The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: archive.php:7
+msgid "Posts Categorized"
+msgstr ""
+
+#: archive.php:9
+msgid "Posts Tagged"
+msgstr ""
+
+#: archive.php:11
+#: author.php:5
+msgid "Posts By"
+msgstr ""
+
+#: archive.php:13
+msgid "Daily Archives"
+msgstr ""
+
+#: archive.php:15
+msgid "Monthly Archives"
+msgstr ""
+
+#: archive.php:17
+msgid "Yearly Archives"
+msgstr ""
+
+#: archive.php:33
+#: author.php:27
+#: search.php:19
+msgid "Permanent Link to"
+msgstr ""
+
+#: archive.php:35
+#: author.php:29
+#: search.php:21
+msgid "BY"
+msgstr ""
+
+#: archive.php:35
+#: author.php:29
+#: search.php:21
+msgid "IN"
+msgstr ""
+
+#: archive.php:35
+#: author.php:29
+#: search.php:21
+msgid "NO COMMENTS YET"
+msgstr ""
+
+#: archive.php:35
+#: author.php:29
+#: search.php:21
+msgid "1 COMMENT"
+msgstr ""
+
+#: archive.php:35
+#: author.php:29
+#: search.php:21
+msgid "% COMMENTS"
+msgstr ""
+
+#: archive.php:76
+#: author.php:73
+#: search.php:61
+msgid "No Posts Yet"
+msgstr ""
+
+#: archive.php:79
+#: author.php:76
+#: search.php:64
+msgid "Sorry, What you were looking for is not here."
+msgstr ""
+
+#: blog-sidebar.php:12
+#: footer.php:16
+#: footer.php:32
+#: footer.php:48
+#: footer.php:64
+#: page-sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr ""
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:61
+msgid "So, what do you think ?"
+msgstr ""
+
+#: comments.php:69
+msgid "You must be  "
+msgstr ""
+
+#: comments.php:69
+msgid "logged in "
+msgstr ""
+
+#: comments.php:69
+msgid "to post a comment. "
+msgstr ""
+
+#: comments.php:79
+msgid "Logged in as  "
+msgstr ""
+
+#: comments.php:79
+msgid "Log out &raquo; "
+msgstr ""
+
+#: comments.php:85
+msgid "Your Name "
+msgstr ""
+
+#: comments.php:90
+msgid "Your Mail "
+msgstr ""
+
+#: comments.php:95
+msgid "Your Website "
+msgstr ""
+
+#: comments.php:102
+msgid "Message "
+msgstr ""
+
+#: comments.php:107
+msgid "POST COMMENT"
+msgstr ""
+
+#: functions.php:12
+#: functions.php:21
+msgid "Editor"
+msgstr ""
+
+#: header.php:107
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: header.php:108
+msgid "Join Us on Facebook!"
+msgstr ""
+
+#: header.php:115
+msgid "type your search here"
+msgstr ""
+
+#: image.php:35
+msgid "Sorry, no attachments matched your criteria."
+msgstr ""
+
+#: index.php:32
+#: index.php:41
+#: index.php:50
+msgid "Read more"
+msgstr ""
+
+#: page.php:23
+msgid "Not Found"
+msgstr ""
+
+#: page.php:26
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr ""
+
+#: search.php:5
+msgid "Search results for"
+msgstr ""
+
+#: single-portfolio.php:5
+msgid "Portfolio"
+msgstr ""
+
+#: single.php:5
+msgid "Our Blog"
+msgstr ""
+
+#: template.contact.form.php:8
+#: template.contact.form.php:88
+msgid "You forgot to enter your name."
+msgstr ""
+
+#: template.contact.form.php:16
+#: template.contact.form.php:93
+msgid "You forgot to enter your email address."
+msgstr ""
+
+#: template.contact.form.php:19
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: template.contact.form.php:27
+#: template.contact.form.php:98
+msgid "You forgot to enter your comments."
+msgstr ""
+
+#: template.contact.form.php:80
+msgid "There was an error submitting the form."
+msgstr ""
+
+#: template.contact.form.php:82
+msgid "<strong>Thanks!</strong> Your email was successfully sent. We should be in touch soon."
+msgstr ""
+
+#: template.contact.form.php:86
+msgid "Your name"
+msgstr ""
+
+#: template.contact.form.php:91
+msgid "Your email"
+msgstr ""
+
+#: template.contact.form.php:96
+msgid "Your message"
+msgstr ""
+
+#: template.contact.form.php:101
+msgid " &nbsp;SEND MESSAGE&nbsp; "
+msgstr ""
+
+#: template.contact.form.php:108
+msgid "Address:"
+msgstr ""
+
+#: template.contact.form.php:109
+msgid "Phone:"
+msgstr ""
+
+#: template.contact.form.php:110
+msgid "Fax:"
+msgstr ""
+
+#: template.contact.form.php:111
+msgid "E-mail:"
+msgstr ""
+
+#: template.portfolio.3cols.php:17
+#: template.portfolio.3cols.sidebar.php:18
+msgid "all"
+msgstr ""
+
+#: admin/options-framework.php:210
+msgid "A Theme by"
+msgstr ""
+
+#: admin/options-framework.php:210
+msgid "Site5.com"
+msgstr ""
+
+#: admin/options-framework.php:228
+msgid "Save Options"
+msgstr ""
+
+#: admin/options-framework.php:229
+msgid "Restore Defaults"
+msgstr ""
+
+#: admin/options-framework.php:229
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/options-framework.php:259
+msgid "Default options restored."
+msgstr ""
+
+#: admin/options-framework.php:306
+msgid "Options saved."
+msgstr ""
+
+#: admin/options-framework.php:354
+msgid "Theme Options"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/inc/customfunctions.php:18
+msgid "Portfolio archive pages will only display in WordPress 3.1 or above.  Please upgrade."
+msgstr ""
+
+#: admin/inc/customfunctions.php:149
+#: admin/inc/customfunctions.php:151
+msgid "read more..."
+msgstr ""
+
+#: admin/inc/customfunctions.php:270
+msgid "Post navigation"
+msgstr ""
+
+#: admin/inc/customfunctions.php:271
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: admin/inc/customfunctions.php:272
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: admin/inc/customfunctions.php:331
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: admin/inc/customfunctions.php:333
+msgid "(Edit)"
+msgstr ""
+
+#: admin/inc/customfunctions.php:340
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: admin/inc/customfunctions.php:356
+msgid "Search for:"
+msgstr ""
+
+#: admin/inc/custompostypes.php:8
+#: admin/inc/custompostypes.php:24
+msgid "Types"
+msgstr ""
+
+#: admin/inc/custompostypes.php:9
+msgid "Type"
+msgstr ""
+
+#: admin/inc/custompostypes.php:10
+msgid "Search Types"
+msgstr ""
+
+#: admin/inc/custompostypes.php:11
+msgid "Popular Types"
+msgstr ""
+
+#: admin/inc/custompostypes.php:12
+msgid "All Types"
+msgstr ""
+
+#: admin/inc/custompostypes.php:13
+msgid "Parent Type"
+msgstr ""
+
+#: admin/inc/custompostypes.php:14
+msgid "Edit Type"
+msgstr ""
+
+#: admin/inc/custompostypes.php:15
+msgid "Update Type"
+msgstr ""
+
+#: admin/inc/custompostypes.php:16
+msgid "Add New Type"
+msgstr ""
+
+#: admin/inc/custompostypes.php:17
+msgid "New Type"
+msgstr ""
+
+#: admin/inc/custompostypes.php:18
+msgid "Separate Types with commas"
+msgstr ""
+
+#: admin/inc/custompostypes.php:19
+msgid "Add or remove Types"
+msgstr ""
+
+#: admin/inc/custompostypes.php:20
+msgid "Choose from most used Types"
+msgstr ""
+
+#: admin/inc/custompostypes.php:42
+msgid "Portfolio Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:43
+#: admin/inc/custompostypes.php:111
+msgid "Add New Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:44
+#: admin/inc/custompostypes.php:46
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:45
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:47
+#: admin/inc/custompostypes.php:115
+msgid "View Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:48
+msgid "Search Portfolio"
+msgstr ""
+
+#: admin/inc/custompostypes.php:49
+msgid "No portfolio items found"
+msgstr ""
+
+#: admin/inc/custompostypes.php:50
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: admin/inc/custompostypes.php:72
+#: admin/inc/custompostypes.php:147
+msgid "Title"
+msgstr ""
+
+#: admin/inc/custompostypes.php:73
+#: admin/inc/custompostypes.php:148
+msgid "Tags"
+msgstr ""
+
+#: admin/inc/custompostypes.php:74
+#: admin/inc/custompostypes.php:149
+msgid "Author"
+msgstr ""
+
+#: admin/inc/custompostypes.php:75
+#: admin/inc/custompostypes.php:150
+msgid "Comments"
+msgstr ""
+
+#: admin/inc/custompostypes.php:76
+#: admin/inc/custompostypes.php:151
+msgid "Date"
+msgstr ""
+
+#: admin/inc/custompostypes.php:109
+msgid "Slider"
+msgstr ""
+
+#: admin/inc/custompostypes.php:110
+msgid "Slider Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:112
+#: admin/inc/custompostypes.php:114
+msgid "Add New Slider Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:113
+msgid "Edit Slider Item"
+msgstr ""
+
+#: admin/inc/custompostypes.php:116
+msgid "Search Slider"
+msgstr ""
+
+#: admin/inc/custompostypes.php:117
+msgid "No slider items found"
+msgstr ""
+
+#: admin/inc/custompostypes.php:118
+msgid "No slider items found in trash"
+msgstr ""
+
+#: admin/inc/pagination.php:13
+msgid " "
+msgstr ""
+
+#: admin/inc/widgets.php:10
+msgid "Blog"
+msgstr ""
+
+#: admin/inc/widgets.php:28
+msgid "Page"
+msgstr ""
+
+#: admin/inc/widgets.php:37
+msgid "Footer 1"
+msgstr ""
+
+#: admin/inc/widgets.php:39
+#: admin/inc/widgets.php:48
+#: admin/inc/widgets.php:57
+#: admin/inc/widgets.php:65
+msgid "Widetized footer"
+msgstr ""
+
+#: admin/inc/widgets.php:46
+msgid "Footer 2"
+msgstr ""
+
+#: admin/inc/widgets.php:55
+msgid "Footer 3"
+msgstr ""
+
+#: admin/inc/widgets.php:63
+msgid "Footer 4"
+msgstr ""
+
+#: admin/inc/widgets.php:94
+#: admin/inc/widgets.php:169
+#: admin/inc/widgets.php:253
+msgid "Widget Title:"
+msgstr ""
+
+#: admin/inc/widgets.php:99
+msgid "Screen name:"
+msgstr ""
+
+#: admin/inc/widgets.php:103
+msgid "Number of Tweets:"
+msgstr ""
+
+#: admin/inc/widgets.php:135
+msgid "Follow Us on Twitter! "
+msgstr ""
+
+#: admin/inc/widgets.php:174
+msgid "Summary Before Address:"
+msgstr ""
+
+#: admin/inc/widgets.php:179
+msgid "Contact Address:"
+msgstr ""
+
+#: admin/inc/widgets.php:184
+msgid "Contact Phone:"
+msgstr ""
+
+#: admin/inc/widgets.php:189
+msgid "Summary After Address"
+msgstr ""
+
+#: admin/inc/widgets.php:213
+msgid "T:"
+msgstr ""
+
+#: admin/inc/widgets.php:258
+msgid "Video Code:"
+msgstr ""
+
+#: admin/inc/widgets.php:262
+msgid "Video Description:"
+msgstr ""
+
+#: admin/shortcodes/shortcodes.php:107
+msgid "<div style=\"color:"
+msgstr ""
+
+#: admin/shortcodes/shortcodes.php:1410
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr ""
+

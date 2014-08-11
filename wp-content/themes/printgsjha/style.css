@@ -1,0 +1,964 @@
+/******************************************************************
+Theme Name: PrintPedia
+Theme URI: http://www.printpedia.co.uk
+Description:  
+Author: gsjha
+Author URI: http://gsjha.com
+Version: 1.0.5
+
+License: GPL
+License URI: http://www.gnu.org/copyleft/gpl.html
+******************************************************************/
+
+/******************************************************************
+1. GENERAL LAYOUT STYLES
+******************************************************************/
+* { margin: 0; padding: 0; }
+
+body,html {
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333;
+	line-height:135%;
+	text-shadow:1px 1px #fff;
+}
+
+ul {
+	list-style:none;
+}
+
+p {
+	margin:20px 0;
+    line-height: 22px;
+}
+
+/* link styles */
+a, a:visited { color: #666; text-decoration:none;}
+a:hover, a:focus { color: #F60B51; outline:none;}
+a:active {}
+a:link { -webkit-tap-highlight-color : rgba(0,0,0,0); /* this highlights links on Iphones / iPads */ }
+
+.readmore a{ color: #F60B51; outline:none; clear:both; margin-bottom:0px}
+.readmore { clear:both; margin-bottom:0px}
+
+/******************************************************************
+2. CONTAINER, MAIN, FULLWIDTH
+******************************************************************/
+#container, .wrap {
+width:960px;
+padding:0 30px;
+background:#FBFBFB url(library/images/pattern1.png);
+margin:0 auto;
+border:4px solid #fff;
+border-top:none;
+border-bottom:none;
+overflow:hidden;
+}
+
+#main { width: 700px; float: left; }
+.fullwidth { width:100% !important; }
+
+.oneThird { float:left; overflow:hidden; width:300px; margin-right:20px; }
+.oneThird.last { margin-right:0; }
+.oneThird h3 { padding:10px 0; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+* html .clearfix{ zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/******************************************************************
+3. COMMON & REUSABLE STYLES
+******************************************************************/
+
+/* text alignment */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/* highlighting search term on search page */
+mark, .search-term { background: #EBE16F; }
+
+/* alerts & notices */
+.help, .info, .error, .success { margin: 10px; padding: 5px 18px; border: 1px solid #cecece; }
+.help { border-color: #E0C618; background: #EBE16F; }
+.info { border-color: #92cae4; background: #d5edf8; }
+.error { border-color: #fbc2c4; background: #fbe3e4; }
+.success { border-color: #c6d880; background: #e6efc2; }
+
+/******************************************************************
+4.	TEXT SELECTION STYLES
+******************************************************************/
+
+/* Highlighted Text */
+::selection {
+background: #666;
+color:#fff;
+text-shadow : none;
+}
+
+/* Firefox */
+::-moz-selection {
+background: #666;
+color:#fff;
+text-shadow : none;
+}
+
+/******************************************************************
+5.	DROPCAPS
+******************************************************************/
+.dropcapsimple, .dropcapsquare, .dropcapfancy {
+float:left;
+overflow:hidden;
+text-align:center;
+}
+
+.dropcapsimple {
+font-size:34px;
+height:34px;
+line-height:38px;
+width:30px;
+text-align:left;
+}
+
+.dropcapsquare {
+font-size:28px;
+height:38px;
+line-height:38px;
+width:38px;
+margin-right:7px;
+color:#fefefe;
+background:#111;
+text-shadow:none;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+}
+
+.dropcapfancy {
+font-size:26px;
+height:40px;
+line-height:40px;
+width:40px;
+margin-right:7px;
+color:#fefefe;
+text-shadow:none;
+background:url(library/images/bk_dropcap3.png) 0 0 no-repeat;
+}
+/******************************************************************
+6.	BLOCKQUOTES
+******************************************************************/
+blockquote {
+border-left:1px dashed #AAAAAA;
+color:#555;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-style:italic;
+line-height:18px;
+margin:15px 0 15px 20px;
+padding-left:20px;
+}
+
+blockquote.alignleft {
+float:left;
+margin:10px 10px 10px 0;
+width:300px;
+}
+
+blockquote.alignright {
+float:right;
+margin:10px 0 10px 10px;
+width:300px;
+}
+
+/******************************************************************
+7.	HEADLINES & TITLES
+******************************************************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {padding:20px 0 ; font-weight: normal; }
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a { text-decoration: none; }
+h1, .h1 { font-size: 40px; line-height: 21px;}
+h2, .h2 { font-size: 22px; line-height: 22px; margin-bottom: 6px;}
+h2.blogpost-title, h2.single-title { font-size: 28px; padding-top: 21px;}
+h3, .h3 { font-size: 20px;}
+h4, .h4 { font-size: 18px; font-weight: 700; }
+h5, .h5 { font-size: 13px; line-height: 33px; text-transform: uppercase; letter-spacing: 2px; }
+
+
+/******************************************************************
+8.	HEADER SYTLES
+******************************************************************/
+header[role=banner] {
+position:relative;
+z-index: 1001 !important;
+height: 210px;
+}
+
+header #logo, header #sitename {
+padding-top:30px;
+text-align:center;
+
+}
+
+header #sitename {
+padding-top:50px;
+text-align:center;
+}
+
+header #tagline {
+font-size:11px;
+text-align:center;
+text-transform:uppercase;
+padding-top:5px;
+color:#727272;
+}
+/* Social Icons */
+
+header #socialIcons {
+position:absolute;
+left:5px;
+bottom:105px;
+background:url(library/images/bk_social.png) 0 50% no-repeat;
+height:25px;
+padding-left:80px;
+line-height:25px;
+}
+
+header #socialIcons .twitter, header #socialIcons .facebook {
+width:24px;
+height:23px;
+display:block;
+float:left;
+margin-right:5px;
+text-indent:-9999px;
+}
+
+header #socialIcons .twitter {
+background:url(library/images/ico_twitter.png) 0 0 no-repeat;
+}
+
+header #socialIcons .facebook {
+background:url(library/images/ico_facebook.png) 0 0 no-repeat;
+}
+
+/* TopSearch */
+#topSearch {
+position:absolute;
+right:5px;
+bottom:100px;
+}
+#topSearch input[type="text"] {
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+width:158px;
+background:url(library/images/bk_topsearch.png) 0 0 no-repeat;
+padding:8px 10px;
+font-style:italic;
+font-family:Georgia, "Times New Roman", Times, serif;
+margin-right:5px;
+color:#999;
+border:none;
+font-size:12px;
+}
+
+#topSearch input[type="submit"] {
+width:25px;
+height:26px;
+background:url(library/images/button.png) 0 0 no-repeat;
+border:none;
+cursor:pointer;
+}
+
+html.ie7 .post_content .postthumbnail {margin-top:10px; }
+
+/******************************************************************
+9.	NAVIGATION STYLES
+******************************************************************/
+#topMenu {
+background:url(library/images/bk_topmenu.png) 0 0 no-repeat;
+margin-top:15px;
+width:100%;
+bottom:20px;
+position:absolute;
+}
+
+#topMenu ul{
+text-align:center;
+padding:15px 0;
+margin:0;
+}
+
+#topMenu ul li {
+display:inline;
+background:url(library/images/top_menu_separator.png) 100% 50% no-repeat;
+}
+
+#topMenu ul li:last-child {
+background:none;
+}
+
+#topMenu ul li a {
+color:#737373;
+text-shadow:1px 1px #fff;
+text-transform:uppercase;
+padding:0 18px;
+text-decoration:none;
+font-size:12px;
+-webkit-transition:color 0.1s ease-in;
+-moz-transition:color 0.1s ease-in;
+-o-transition:color 0.1s ease-in;
+transition:color 0.1s ease-in;
+}
+
+#topMenu ul li a:hover, #topMenu ul li.sfHover a{
+color:#333;
+}
+
+/******************************************************************
+10.	POSTS & CONTENT STYLES
+******************************************************************/
+#content {
+position:relative;
+}
+
+#content h1 {
+font-family:Georgia, 'Times New Roman', Times, serif;
+padding:10px 0 5px;
+font-size:32px;
+font-weight:normal;
+font-style:italic;
+}
+
+#content h1 span {
+font-size:16px;
+font-family:Arial, Helvetica, sans-serif;
+font-style:normal;
+color:#666;
+}
+
+/* hentry */
+.hentry {padding-bottom:30px}
+.single .hentry {padding-bottom:10px;}
+.hentry header {border-bottom:2px solid #ddd;}
+.hentry footer { clear: both; margin: 0; padding-bottom: 10px;}
+
+.archive_title { padding: 0 20px; margin: 17px 0 12px; }
+
+/* post meta */
+.meta {text-transform:uppercase; font-size:11px; letter-spacing:0px; line-height:28px; color: #999; margin-left:60px !important; margin-top: -20px; margin-bottom:15px;}
+.meta a {color: #F60B51;}
+
+.meta .tags { background:url(library/images/tags.png) 0px 2px no-repeat; padding-left:28px; height:30px; display:inline-block; }
+
+/* block elements */
+header, hgroup, footer, section, article {
+	display: block;
+    clear: both;
+}
+
+/* post content */
+article time { background:url(library/images/date.png) 0% 0% no-repeat; height:49px; width:50px; float:left; padding-right:10px; text-align:center; color:#fff;text-shadow:none; margin-top:20px; margin-right:10px; padding-top:10px; }
+article time .date { font-size:16px; line-height:12px !important;padding-bottom:0px; display:block;}
+article time .month { font-size:11px; margin-top:-5px; text-transform:uppercase; line-height:11px !important;}
+.post_content a:hover, .meta a:hover{ text-decoration:underline; }
+.post_content { font-size:14px; line-height:24px }
+.post_content ul, .post_content ol, .post_content table, .post_content dl { margin: 24px 0; }
+.post_content ul, .post_content ol { list-style-position:outside; line-height:1.5; margin-left: 35px; margin-right: 35px; }
+.post_content li { margin-bottom: 12px; }
+.post_content ul li { list-style-type: disc; }
+.post_content ol li { list-style-type: decimal; }
+.post_content blockquote { font-style:italic; line-height:25px; margin: 24px 35px; }
+.post_content blockquote:before { font-family:Georgia, serif; content: "“"; font-size:44px; text-indent:-12px; margin-top:.16px; float:left; opacity:.3; } /* this adds the quote before the blockquote */
+.post_content dl { margin:28px 0 28px; }
+.post_content dt { margin-top: 20px; font-weight:700; }
+.post_content dd { font-style: italic; margin-top:8px; line-height:25px; }
+.post_content img { max-width: 100%; }
+.post_content .portfolioimg { border: 1px solid #fff; box-shadow: 0 0 5px 2px #ddd; padding: 10px; margin-bottom:20px; margin-top:20px; }
+.post_content .postthumbnail { float:left;  margin-bottom:20px;  margin-right:20px; border: 1px solid #fff; box-shadow: 0 0 5px 2px #ddd; padding:6px}
+.post_content video { margin: 24px 0; max-width: 100%; display: block; }
+.post_content object { display: block; margin: 24px 0; max-width: 100%; }
+.post_content pre, .post_content code { font-size: 14px; line-height: 27px; padding: 16px; background: #eee; border: 2px solid #cecece; margin-bottom: 25px; }
+
+/* wp-caption */
+.wp-caption { margin-bottom: 24px; text-align: center; padding-top: 5px; }
+.wp-caption img { border: 0 none; padding: 0; margin: 0; }
+.wp-caption .wp-caption-text { font-size:12px; font-style:italic; margin:9px 0 -3px; }
+
+/* alignments */
+.alignleft, img.alignleft { margin:0 24px 24px 0; display: inline; float: left; }
+.alignright, img.alignright { margin-left: 24px; display: inline; float: right; }
+.aligncenter, img.aligncenter { margin-right: auto; margin-left: auto; display: block; clear: both; }
+
+/* more-link */
+.more-link { padding-right:16px;}
+.more-link:hover{ background:url(library/images/ico_arrow.png) 100% 50% no-repeat;}
+
+/******************************************************************
+11.	CONTACT FORM
+******************************************************************/
+.contactLeft { float:left; overflow:hidden; width:75%; margin-right:10px; }
+.contactRight { overflow:hidden; width:23%; margin-left:0px; }
+
+#contactForm, form {
+width: 100%
+display:block;
+list-style: none;
+color:#999;
+}
+
+#contactForm {
+margin: 30px 0;
+width: 90%
+}
+
+#contactForm div{
+clear: both;
+float: left;
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+list-style: none !important;
+}
+
+#contactForm label {
+text-transform:uppercase;
+cursor: pointer;
+display: block;
+float: left;
+font-weight: normal;
+padding: 10px 0px;
+width: 130px
+}
+
+#contactForm input,
+#contactForm textarea {
+background:#f2f2f2;
+border-radius: 10px;
+border: 1px solid #f2f2f2;
+box-shadow: 1px 1px 2px #DDDDDD inset;
+margin-bottom: 10px;
+padding: 8px;
+}
+
+#contactForm textarea {
+height: 190px;
+width: 500px;
+}
+
+#contactForm input {
+width: 282px;
+}
+
+.thanks {
+background: #F2F3F6;
+background: url('library/js/contactform/ok.png') no-repeat left;
+padding-left:20px;
+display: none;
+}
+
+.error {
+color: #333;
+background: #FCE2D4 url('library/js/contactform/error.png') no-repeat 5px 50%;
+padding-left:30px;
+display: none;
+}
+
+#contactForm .error {
+margin-top: 5px;
+display: none;
+padding:7px;
+padding-left:30px;
+margin-left: 130px;
+border-radius:6px;
+font-size:11px;
+}
+
+.contactinfo {
+padding-left:0px;
+margin-top: 40px;
+}
+
+.contactinfo div {
+margin-left:10px;
+margin-bottom:15px;
+}
+
+.contactinfo strong {
+color:#cc0000;
+display:block;
+}
+
+#contact-map{
+background: #efefef;
+margin-top:30px;
+padding-bottom:30px;
+border:1px solid #ddd;
+padding:10px;
+}
+
+#contact-map iframe{
+border:none;
+}
+
+.submitbutton{ font-weight:bold; background: none repeat scroll 0 0 #F82C6D; border-radius: 20px 20px 20px 20px; box-shadow: 1px 1px 1px 0 #BBBBBB; color: #FFFFFF; text-shadow: -1px -1px #C92458; padding :8px 20px; border:none; margin-left: 130px;}
+
+/******************************************************************
+12.	GALLERIES
+******************************************************************/
+.gallery {
+position:relative;
+clear:both;
+margin-top:20px;
+}
+
+.gallery ul{
+overflow:hidden;
+}
+
+.gallery.withsidebar ul li {
+width:220px;
+background:url(library/images/shadow_3items.png) 0 100% no-repeat;
+}
+
+.gallery.fourperrow ul {
+margin:0px;
+}
+
+.gallery.fourperrow ul li {
+width:220px;
+margin-right:24px;
+background:url(library/images/shadow_3items.png) 0 100% no-repeat;
+}
+
+.gallery.threeperrow ul li {
+width:300px;
+background:url(library/images/shadow_3items.png) 0 100% no-repeat;
+margin-right:24px;
+}
+
+.gallery ul li {
+float:left;
+padding-bottom:9px;
+margin-right:20px;
+margin-bottom:25px;
+position:relative;
+}
+
+.gallery.withsidebar ul li:nth-child(3n+3) {margin-right:0;}
+.gallery.threeperrow ul li:nth-child(3n+3) {margin-right:0;}
+.gallery.fourperrow ul li:nth-child(4n+4) { margin-right: 0;}
+
+
+.gallery ul li .imgBox {
+display:block;
+padding:8px;
+background:#fff;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-topright:6px;
+}
+
+.gallery ul li .imgBox img {
+/*visibility:hidden;*/
+}
+
+.gallery ul li.last {
+margin-right:0;
+}
+
+.gallery ul li .overlay {
+position:absolute;
+background:url(library/images/zoom.png) 50% 50% no-repeat;
+z-index:101;
+opacity:0;
+filter:alpha(opacity=0);
+}
+
+.gallery.withsidebar ul li .overlay{
+top:8px;
+left:8px;
+width:220px;
+height:196px;
+}
+
+.gallery.fourperrow ul li .overlay{
+top:8px;
+left:8px;
+width:220px;
+height:196px;
+}
+
+.gallery.threeperrow ul li .overlay{
+top:8px;
+left:8px;
+width:300px;
+height:196px;
+}
+
+
+.gallery ul li .details {
+background:#fff url(library/images/bullet_gallery_grey.png) 8px 3px no-repeat;
+padding:2px 12px 12px 29px;
+overflow:hidden;
+font-size:12px;
+color:#999;
+}
+
+.gallery ul li:hover .details {
+background:#fff url(library/images/bullet_gallery_pink.png) 8px 3px no-repeat;
+color:#333;
+}
+
+.gallery .butViewPortfolio {
+display:block;
+text-align:center;
+text-shadow:-1px -1px #D03261;
+font-family:Georgia, "Times New Roman", Times, serif !important;
+font-weight:bold !important;
+color:#fff !important;
+width:174px;
+height:31px;
+line-height:31px;
+position:absolute;
+right:0;
+top:10px;
+background:url(library/images/button_big.png) 0 0 no-repeat;
+font-style:italic !important;
+}
+
+.gallery ul li.invisible {
+display:none;
+}
+
+/******************************************************************
+13.	PORTFOLIO FILTER LINKS
+******************************************************************/
+ul.filters {
+text-align:center;
+margin:20px 0 10px;
+}
+
+ul.filters li {
+display:inline;
+
+}
+
+ul.filters li a {
+padding:3px 12px 8px;
+text-transform:uppercase;
+font-size:12px;
+color:#333;
+border-bottom:2px solid #ddd;
+-webkit-transition:color 0.1s ease-in;
+-moz-transition:color 0.1s ease-in;
+-o-transition:color 0.1s ease-in;
+transition:color 0.1s ease-in;
+}
+
+ul.filters li a.selected, ul.filters li.selected a, ul.filters li a:hover {
+border-bottom:2px solid #F60B51;
+text-decoration:none;
+color:#F60B51;
+}
+
+/******************************************************************
+14.	PAGINATION
+******************************************************************/
+#pagination {
+margin:10px auto;
+text-align:center;
+line-height:29px;
+height: 30px;
+}
+
+.bigColumn #pagination {
+margin:10px 0;
+}
+
+#pagination span.current {
+color:#F60B51;
+}
+
+#pagination a {
+width:28px;
+height:29px;
+padding-left: 10px;
+}
+#pagination .pages {
+margin-right:10px;
+}
+
+#pagination a.next {
+float:right;
+background:url(library/images/but_nextpage.png) 0 0 no-repeat;
+}
+
+#pagination a.prev {
+float:left;
+background:url(library/images/but_prevpage.png) 0 0 no-repeat;
+}
+
+#pagination a.next:hover, #pagination a.prev:hover {
+background-position: 0 -29px;
+}
+
+#pagination a.next:hover {
+background:url(library/images/but_nextpage.png) 0 -29px no-repeat;
+}
+
+/******************************************************************
+15.	SIDEBARS & ASIDES
+******************************************************************/
+aside {
+float:left;/* Change this to float:right if you want sidebar on left side*/
+width:220px;
+margin-left:40px; /* Change this to margin-right:30px; for sidebar on left side*/
+padding-top:10px;
+}
+
+aside .sidebarBox {
+margin-bottom:20px;
+list-style:none;
+}
+
+aside .sidebarBox ul {
+	margin:0;
+}
+
+aside .sidebarBox ul li {
+padding:10px 0 10px 16px;
+border-bottom:1px solid #ddd;
+background:url(library/images/ico_arrow.png) 0 16px no-repeat;
+}
+
+aside .sidebarBox h3{
+margin-bottom:5px;
+}
+
+aside .sidebarBox ul.filters  {
+margin:0;
+}
+
+aside .sidebarBox ul.filters li {
+display:block;
+text-align:left;
+padding:7px 0 7px 16px;
+border:none;
+padding:0;
+}
+
+aside .sidebarBox ul.filters li a {
+border:none;
+border-bottom:1px solid #ddd;
+display:block;
+
+}
+
+aside .sidebarBox ul.filters li a.selected,aside .sidebarBox ul.filters li a:hover  {
+border-bottom:1px solid #F60B51;
+text-decoration:none;
+color:#F60B51;
+}
+
+.widget { padding: 0 10px; margin: 23px 0; }
+.widget li { margin-bottom: 12px; }
+.widget li ul { margin-top: 12px; padding-left: 16px; }
+.widgettitle { border-bottom: 2px solid #444; margin-bottom: 12px; }
+
+/* fallback previous & next links */
+.wp-prev-next .prev-link { float: left; }
+.wp-prev-next .next-link { float: right; }
+
+/******************************************************************
+16.	COMMENT STYLES
+******************************************************************/
+
+#comments { background:url(library/images/commentbubble.png) 0 15px no-repeat; padding-left: 50px !important;border-bottom:2px solid #ddd }/* h3 comment title */
+ol.commentlist { margin-top: 10px; margin-bottom:20px; }
+.commentlist ol li {border-bottom:1px solid #ddd;}
+.commentlist li { position: relative; clear: both; list-style-type: none; padding: 11px 10px;border-bottom:1px solid #ddd;}
+.commentlist li[class*=depth-] { padding-left: 20px; margin-top: 17px; }
+.commentlist li.depth-1 { margin-top: 1px; }
+.commentlist li:not(.depth-1) { margin-right: -10px; }
+.commentlist li:last-child {}
+/*.commentlist .odd {  border-top: 1px solid #ddd;}
+.commentlist .even {  border-bottom: 1px solid #ddd; }*/
+
+.commentlist .vcard {margin-left: 40px; }
+.commentlist .vcard cite.fn { font-weight: 700; font-style: normal;}
+.commentlist .vcard time {font-size: 11px;  float: none; background:none;width: auto;margin-top: auto; text-shadow:1px 1px #fff;text-transform:uppercase}
+.commentlist .vcard time a { color: #999; text-decoration: none; }
+.commentlist .vcard time a:hover { text-decoration: underline; }
+
+.commentlist .vcard img.avatar { position: absolute; left: 0; padding: 2px; border: 1px solid #cecece; background: #fff; -moz-border-radius: 80px; -webkit-border-radius: 80px; border-radius: 80px; }
+.commentlist li .comment_content { margin-left: 40px; }
+.commentlist li .comment_content p { margin: 15px 0; }
+.commentlist li ul { margin: 0 0 0 40px; }
+.commentlist li ul.children li { border:none;border-top:1px solid #ddd;padding-bottom:4px;}
+.commentlist .comment-reply-link {margin-left:40px;text-decoration: none; color: #F60B51; font-size: 11px; text-transform:uppercase}
+.commentlist a.comment-reply-link:hover { opacity: 1; }
+.commentscount { background:url(library/images/comments.png) 0 2px no-repeat; padding-left:28px; height:30px; display:inline-block; }
+
+
+/******************************************************************
+17.	COMMENT FORM STYLES
+******************************************************************/
+
+#comment-form-title { margin: 0 0 17px; background:url(library/images/leavecomment.png) 0 15px no-repeat; padding-left: 50px !important; border-bottom:2px solid #ddd;}
+#cancel-comment-reply {}
+#cancel-comment-reply a {}
+.comments-logged-in-as {}
+.respond-form form[method=post] {margin:30px 0; }
+.respond-form ol li form#commentform[method=post] li { margin-bottom:0}
+.respond-form form[method=post] li { list-style-type: none; clear: both; margin-bottom: 20px; padding: 0}
+.respond-form form[method=post] li label, .respond-form form[method=post] li small {cursor:pointer; text-transform:uppercase; width:130px; float:left;}
+.respond-form input[type=text]:focus, .respond-form input[type=email]:focus, .respond-form input[type=url]:focus, .respond-form textarea:focus { outline:none;}
+.respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url] { width:282px; height:30px; border: none; padding: 1px 6px; line-height: 24px; }
+#allowed_tags { margin: 24px 10px 11px 0; }
+
+.respond-form textarea, .respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url] {background:#f2f2f2; border-radius: 10px; border: 1px solid #f2f2f2; box-shadow: 1px 1px 2px #DDDDDD inset;}
+.respond-form textarea { resize: none; width: 500px; padding: 10px 5px; line-height: 24px;  height:190px; }
+.respond-form input:invalid, .respond-form textarea:invalid { outline: none;} /* form validation */
+
+.nocomments { margin: 0 20px 17px; }/* no comments */
+.commentbutton {background:url(library/images/postcomment.png) 0 0px no-repeat; width:162px; height:34px; text-indent:-9999px; border:none; margin-left:135px;}
+
+/******************************************************************
+18.	FOOTER STYLES
+******************************************************************/
+footer{
+background:url(library/images/hr_thick.png) 0 0 no-repeat;
+padding-top:20px;
+margin-top:20px;
+}
+
+footer .copyright {
+background:url(library/images/hr_thick.png) 0 0 no-repeat;
+margin-top:10px;
+padding:25px 0 50px;
+font-size:11px;
+color:#999;
+text-align:center;
+text-transform:uppercase;
+}
+
+/******************************************************************
+19.	FOOTER ELEMENTS
+******************************************************************/
+footer .footerWidgets { padding:10px 0 25px; overflow:hidden; }
+footer .boxFooter { width:220px; float:left; margin-right:24px;}
+footer .boxFooter:last-child { margin-right:0;}
+
+footer .footerWidgets .boxFooter h2, aside h3 {
+font-size:16px;
+padding-top:10px;
+color:#333;
+text-transform:uppercase;
+border-bottom:2px solid #ddd;
+padding-bottom:8px;
+margin-bottom:15px;
+}
+
+footer .boxFooter ul {
+margin-top:-8px;
+}
+
+footer .boxFooter ul li {
+padding:7px 0 7px 16px;
+border-bottom:1px solid #ddd;
+background:url(library/images/ico_arrow.png) 0 13px no-repeat;
+}
+
+footer .boxFooter ul li a {
+color:#666;
+}
+
+footer .boxFooter ul li a:hover {
+text-decoration:none;
+color:#F60B51;
+}
+
+footer .boxFooter.contact p{
+margin-bottom:15px;
+}
+
+footer .boxFooter.contact .address{
+padding-right:60px;
+line-height:170%;
+background:url(library/images/ico_bc.png) 100% 15px no-repeat;
+padding:15px 0;
+border-top:1px solid #ddd;
+border-bottom:1px solid #ddd;
+color:#666;
+margin-bottom:15px;
+}
+
+/******************************************************************
+20.	SLIDER
+******************************************************************/
+#slider_container {
+background:url(library/images/shadow_slider.png) 50% 100% no-repeat;
+padding-bottom:10px;
+height:355px;
+padding-top:3px;
+}
+
+#slider {
+position:relative;
+background:url(library/images/loading.gif) no-repeat 50% 40%;
+height:344px;
+}
+
+#slider img {
+position:absolute;
+top:0px;
+left:0px;
+display:none;
+z-index:1;
+}
+
+/******************************************************************
+21.	HOMEPAGE BLURB
+******************************************************************/
+.blurb {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+text-align:center;
+line-height:140%;
+margin:20px 0;
+font-style:italic;
+color:#666;
+
+}
+/******************************************************************
+22.	HR STYLES
+******************************************************************/
+.hrThickFull {
+height:7px;
+background:url(library/images/hr_thick.png) 0 0 no-repeat;
+margin:15px 0;
+clear:both;
+}
+.hrThickThin {
+height:2px;
+background:url(library/images/hr_thick.png) 0 0 no-repeat;
+margin:15px 0;
+clear:both;
+}
+.hrThickThiny {
+height:1px;
+background:url(library/images/hr_thick.png) 0 0 no-repeat;
+margin:15px 0;
+clear:both;
+}
+
+/******************************************************************
+23. HOME CONTENT BOXES
+******************************************************************/
+.homecontent p{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-style:italic;
+}
