@@ -104,10 +104,10 @@
 
 					<!-- begin #topSearch -->
 					<div id="topSearch">
-						<form id="searchform" method="get" action="<?php bloginfo( 'url' ); ?>">
+						<!--<form id="searchform" method="get" action="<?php bloginfo( 'url' ); ?>">
 							<input type="text" id="s" name="s" value="<?php _e( 'type your search here', 'site5framework' ); ?>" onFocus="this.value=''" />
 							<input type="submit" value="" />
-						</form>
+						</form>-->
 					</div>
 					<!-- end #topSearch -->
 

@@ -86,12 +86,12 @@ get_header();
 
 					<form id="contactForm" method="POST">
                     <div>
-					<label for="nameinput"><?php _e("Your name", "site5framework"); ?></label>
+					<label for="nameinput"><?php _e("Your name*", "site5framework"); ?></label>
 						<input type="text" id="nameinput" name="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="requiredField"/>
 						<span class="error" <?php if($nameError != '') echo 'style="display:block;"'; ?>><?php _e("You forgot to enter your name.", "site5framework");?></span>
                     </div>
                     <div>
-					<label for="emailinput"><?php _e("Your email", "site5framework"); ?></label>
+					<label for="emailinput"><?php _e("Your email*", "site5framework"); ?></label>
 						<input type="text" id="emailinput" name="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="requiredField email"/>
 						  <span class="error" <?php if($emailError != '') echo 'style="display:block;"'; ?>><?php _e("You forgot to enter your email address.", "site5framework");?></span>
                     </div>
@@ -101,16 +101,16 @@ get_header();
 						  <span class="error" <?php if($commentError != '') echo 'style="display:block;"'; ?>><?php _e("You forgot to enter your comments.", "site5framework");?></span>
                     </div><br />
                     <input type="hidden" name="submitted" id="submitted" value="true" />
-					<button type="submit" id="submitbutton" class="submitbutton"><?php _e(' &nbsp;SEND MESSAGE&nbsp; ', 'site5framework'); ?></button>
+					<button type="submit" id="submitbutton" class="submitbutton"><?php _e(' &nbsp;Send Message&nbsp; ', 'site5framework'); ?></button>
 
 					</form>
 
 				</div>
 
 				<div class="contactRight contactinfo">
-					<div class="caddress"><strong><?php _e('Address:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_address') ?></div>
-	                <div class="cphone"><strong><?php _e('Phone:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_phone') ?></div>
-	                <div class="cphone"><strong><?php _e('Fax:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_fax') ?></div>
+					<div class="caddress"><strong><?php _e('Business Address:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_address') ?></div>
+	                <div class="cphone"><strong><?php _e('Telephone:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_phone') ?></div>
+	               <!-- <div class="cphone"><strong><?php _e('Fax:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_fax') ?></div>-->
 	                <div class="cemail"><strong><?php _e('E-mail:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_email') ?></div>
 
 				</div>

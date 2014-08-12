@@ -304,10 +304,11 @@ background:none;
 #topMenu ul li a {
 color:#737373;
 text-shadow:1px 1px #fff;
-text-transform:uppercase;
+/*text-transform:uppercase;*/
 padding:0 18px;
 text-decoration:none;
-font-size:12px;
+font-size:16px;
+font-family: 'Comfortaa';
 -webkit-transition:color 0.1s ease-in;
 -moz-transition:color 0.1s ease-in;
 -o-transition:color 0.1s ease-in;
@@ -326,11 +327,11 @@ position:relative;
 }
 
 #content h1 {
-font-family:Georgia, 'Times New Roman', Times, serif;
+font-family:'Comfortaa', Georgia, 'Times New Roman', Times, serif;
 padding:10px 0 5px;
 font-size:32px;
 font-weight:normal;
-font-style:italic;
+/*font-style:italic;*/
 }
 
 #content h1 span {
@@ -425,13 +426,15 @@ list-style: none !important;
 }
 
 #contactForm label {
-text-transform:uppercase;
+/*text-transform:uppercase;*/
 cursor: pointer;
 display: block;
 float: left;
 font-weight: normal;
 padding: 10px 0px;
-width: 130px
+width: 130px;
+font-family: 'Comfortaa';
+font-size: 16px;
 }
 
 #contactForm input,
@@ -488,8 +491,10 @@ margin-bottom:15px;
 }
 
 .contactinfo strong {
-color:#cc0000;
+color:#F82C6D;
 display:block;
+font-family: 'Comfortaa';
+font-size: 16px;
 }
 
 #contact-map{
@@ -504,7 +509,7 @@ padding:10px;
 border:none;
 }
 
-.submitbutton{ font-weight:bold; background: none repeat scroll 0 0 #F82C6D; border-radius: 20px 20px 20px 20px; box-shadow: 1px 1px 1px 0 #BBBBBB; color: #FFFFFF; text-shadow: -1px -1px #C92458; padding :8px 20px; border:none; margin-left: 130px;}
+.submitbutton{ font-weight:bold; background: none repeat scroll 0 0 #F82C6D; border-radius: 20px 20px 20px 20px; box-shadow: 1px 1px 1px 0 #BBBBBB; color: #FFFFFF; text-shadow: -1px -1px #C92458; padding :8px 20px; border:none; margin-left: 130px;font-family: 'Comfortaa';font-size: 16px;}
 
 /******************************************************************
 12.	GALLERIES
@@ -616,7 +621,7 @@ color:#333;
 display:block;
 text-align:center;
 text-shadow:-1px -1px #D03261;
-font-family:Georgia, "Times New Roman", Times, serif !important;
+font-family:'Comfortaa', Georgia, "Times New Roman", Times, serif !important;
 font-weight:bold !important;
 color:#fff !important;
 width:174px;
@@ -626,7 +631,8 @@ position:absolute;
 right:0;
 top:10px;
 background:url(library/images/button_big.png) 0 0 no-repeat;
-font-style:italic !important;
+font-size: 16px;
+/*font-style:italic !important;*/
 }
 
 .gallery ul li.invisible {
@@ -860,6 +866,7 @@ text-transform:uppercase;
 border-bottom:2px solid #ddd;
 padding-bottom:8px;
 margin-bottom:15px;
+font-family: 'Droid Sans';
 }
 
 footer .boxFooter ul {
