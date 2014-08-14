@@ -988,12 +988,12 @@ z-index:1;
 21.	HOMEPAGE BLURB
 ******************************************************************/
 .blurb {
-font-family:Georgia, "Times New Roman", Times, serif;
+font-family:ComfortaaBold,Georgia, "Times New Roman", Times, serif;
 font-size:24px;
 text-align:center;
 line-height:140%;
 margin:20px 0;
-color:#666;
+color:#F82C6D;
 
 }
 /******************************************************************
