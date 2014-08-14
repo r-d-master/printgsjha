@@ -359,8 +359,8 @@ text-shadow:1px 1px #fff;
 /*text-transform:uppercase;*/
 padding:0 18px;
 text-decoration:none;
-font-size:16px;
-font-family: 'Comfortaa';
+font-size:17px;
+font-family: 'ComfortaaBold';
 -webkit-transition:color 0.1s ease-in;
 -moz-transition:color 0.1s ease-in;
 -o-transition:color 0.1s ease-in;
@@ -386,7 +386,7 @@ position:relative;
 #content h1 {
 font-family:'ComfortaaBold', Georgia, 'Times New Roman', Times, serif;
 padding:10px 0 5px;
-font-size:49px;
+font-size:36px;
 font-weight:normal;
 /*font-style:italic;*/
 }
@@ -490,7 +490,7 @@ float: left;
 font-weight: normal;
 padding: 10px 0px;
 width: 130px;
-font-family: 'Comfortaa';
+font-family: 'ComfortaaBold';
 font-size: 16px;
 }
 
@@ -550,7 +550,7 @@ margin-bottom:15px;
 .contactinfo strong {
 color:#F82C6D;
 display:block;
-font-family: 'Comfortaa';
+font-family: 'ComfortaaBold';
 font-size: 16px;
 }
 
@@ -566,7 +566,7 @@ padding:10px;
 border:none;
 }
 
-.submitbutton{ font-weight:bold; background: none repeat scroll 0 0 #F82C6D; border-radius: 20px 20px 20px 20px; box-shadow: 1px 1px 1px 0 #BBBBBB; color: #FFFFFF; text-shadow: -1px -1px #C92458; padding :8px 20px; border:none; margin-left: 130px;font-family: 'Comfortaa';font-size: 16px;}
+.submitbutton{ font-weight:bold; background: none repeat scroll 0 0 #F82C6D; border-radius: 20px 20px 20px 20px; box-shadow: 1px 1px 1px 0 #BBBBBB; color: #FFFFFF; text-shadow: -1px -1px #C92458; padding :8px 20px; border:none; margin-left: 130px;font-family: 'ComfortaaBold';font-size: 16px;}
 
 /******************************************************************
 12.	GALLERIES
@@ -678,7 +678,7 @@ color:#333;
 display:block;
 text-align:center;
 text-shadow:-1px -1px #D03261;
-font-family:'Comfortaa', Georgia, "Times New Roman", Times, serif !important;
+font-family:'ComfortaaBold', Georgia, "Times New Roman", Times, serif !important;
 font-weight:bold !important;
 color:#fff !important;
 width:174px;
