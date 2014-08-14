@@ -375,9 +375,9 @@ position:relative;
 }
 
 #content h1 {
-font-family:'Comfortaa', Georgia, 'Times New Roman', Times, serif;
+font-family:'ComfortaaBold', Georgia, 'Times New Roman', Times, serif;
 padding:10px 0 5px;
-font-size:32px;
+font-size:49px;
 font-weight:normal;
 /*font-style:italic;*/
 }
