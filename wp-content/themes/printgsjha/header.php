@@ -108,6 +108,7 @@
 							<input type="text" id="s" name="s" value="<?php _e( 'type your search here', 'site5framework' ); ?>" onFocus="this.value=''" />
 							<input type="submit" value="" />
 						</form>-->
+						<p style="font-family:ComfortaaBold;font-size:20px;font-color:#F82C6D;">Email : info@printpedia.co.uk</p>
 					</div>
 					<!-- end #topSearch -->
 
