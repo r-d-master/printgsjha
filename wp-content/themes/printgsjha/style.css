@@ -13,6 +13,49 @@ License URI: http://www.gnu.org/copyleft/gpl.html
 /******************************************************************
 1. GENERAL LAYOUT STYLES
 ******************************************************************/
+
+@font-face {
+    font-family: 'ComfortaaLight';
+    src: url('fonts/comfortaa-light-webfont.eot');
+    src: url('fonts/comfortaa-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/comfortaa-light-webfont.woff') format('woff'),
+         url('fonts/comfortaa-light-webfont.ttf') format('truetype'),
+         url('fonts/comfortaa-light-webfont.svg#ComfortaaLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ComfortaaRegular';
+    src: url('fonts/comfortaa-regular-webfont.eot');
+    src: url('fonts/comfortaa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/comfortaa-regular-webfont.woff') format('woff'),
+         url('fonts/comfortaa-regular-webfont.ttf') format('truetype'),
+         url('fonts/comfortaa-regular-webfont.svg#ComfortaaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ComfortaaBold';
+    src: url('fonts/comfortaa-bold-webfont.eot');
+    src: url('fonts/comfortaa-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/comfortaa-bold-webfont.woff') format('woff'),
+         url('fonts/comfortaa-bold-webfont.ttf') format('truetype'),
+         url('fonts/comfortaa-bold-webfont.svg#ComfortaaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * { margin: 0; padding: 0; }
 
 body,html {
@@ -314,6 +357,11 @@ font-family: 'Comfortaa';
 -o-transition:color 0.1s ease-in;
 transition:color 0.1s ease-in;
 }
+
+#topMenu ul li.current_page_item a {
+	color:#F82C6D;
+}
+
 
 #topMenu ul li a:hover, #topMenu ul li.sfHover a{
 color:#333;
@@ -966,4 +1014,5 @@ clear:both;
 ******************************************************************/
 .homecontent p{
    font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align: justify;
 }
