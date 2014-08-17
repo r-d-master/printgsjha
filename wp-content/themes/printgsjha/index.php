@@ -83,7 +83,7 @@
 
 							if (!$thumb == ''){ ?>
 
-                            <a href="<?php echo $large[0] ?>" class="tooltip" title="<?php the_title(); ?>"><img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  /></a>
+                            <a href="<?php echo $large[0] ?>" class="fancybox tooltip" title="<?php the_title(); ?>"><img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  /></a>
 
                             <?php } else { ?>
 
