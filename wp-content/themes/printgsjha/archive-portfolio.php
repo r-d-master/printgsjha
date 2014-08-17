@@ -5,7 +5,8 @@
 				<?php
 				$portfoliodescpage = of_get_option('snb_portfoliodesc');
 				$portfoliodesc = get_post_meta($portfoliodescpage, 'snbpd_pagedesc');
-				if ($portfoliodesc || is_array($portfoliodesc)) {				echo ' / <span>';
+				if ($portfoliodesc || is_array($portfoliodesc)) {
+				echo ' / <span>';
 				echo $portfoliodesc[0].'</span>';
 				}?>
 				</h1>
@@ -39,10 +40,11 @@
 										<?php
 										$thumbId = get_image_id_by_link ( get_post_meta($post->ID, 'snbp_pitemlink', true) );
 										$thumb = wp_get_attachment_image_src($thumbId, 'portfolio-thumb', false);
+										$large = wp_get_attachment_image_src($thumbId, 'large', false);
 
 										if (!$thumb == ''){ ?>
 
-										<img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  />
+										<a href="<?php echo $large[0] ?>" class="fancybox" title="<?php the_title(); ?>"><img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  /></a>
 
 										<?php } else { ?>
 
@@ -54,7 +56,7 @@
 										<div class="details">
 											<?php the_title(); ?>
 										</div>
-										<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="overlay"></a>
+										<!--<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="overlay"></a>-->
 									</li>
 									<?php endwhile;?>
 								</ul>
