@@ -29,12 +29,28 @@ jQuery(document).ready(function($){
 
 
 	// add all your scripts here
+   // $("a[href$='.jpg'], a[href$='.png'], a[href$='.jpeg'], a[href$='.gif']").addClass("fancybox");
+    $(".prettyphoto").attr('rel','gallery').fancybox( {
+        openEffect  : 'elastic',
+        closeEffect : 'elastic',
+        helpers     : {
+            title   : { type : 'inside' }
+        }
+    });
+    $(".fancybox").fancybox({
+        openEffect  : 'elastic',
+        closeEffect : 'elastic',
+        helpers     : {
+            title   : { type : 'inside' }
+        }
+    });
 
 
 }); /* end of as page load scripts */
 
 // HTML5 Fallbacks for older browsers
 (function($) {
+
     // check placeholder browser support
     if (!Modernizr.input.placeholder) {
         // set placeholder values

@@ -24,6 +24,16 @@ function action_add_meta_boxes() {
 		);
 	}
 }
+
+/*add_filter('term_links-portfolio', 'ad_filter_links');
+
+function ad_filter_links($term_links) {
+    foreach ($term_links as $term_link) {
+        $term_link = str_replace('<a ', '<a class="fancybox"', $term_link);
+    }
+    return $term_links;
+}
+*/
 function inner_custom_box( $post ) {
 	the_editor($post->post_content);
 }
@@ -34,5 +44,13 @@ function portfolio_posts_per_page( $query ) {
     return $query;
 }
 if ( !is_admin() ) add_filter( 'pre_get_posts', 'portfolio_posts_per_page' );
+
+// Enqueue Scripts/Styles for our Lightbox
+function tgsjha_add_lightbox() {
+    wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lightbox/js/jquery.fancybox.pack.js', array( 'jquery' ), false, true );
+   // wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/lightbox/js/lightbox.js', array( 'fancybox' ), false, true );
+    wp_enqueue_style( 'lightbox-style', get_template_directory_uri() . '/lightbox/css/jquery.fancybox.css' );
+}
+add_action( 'wp_enqueue_scripts', 'tgsjha_add_lightbox' );
 
 ?>
