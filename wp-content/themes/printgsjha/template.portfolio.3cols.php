@@ -50,7 +50,7 @@ get_header(); ?>
 										<div class="details">
 											<?php the_title(); ?>
 										</div>
-										<a title="<?php the_title(); ?>" class="overlay"></a>
+										<!--<a title="<?php the_title(); ?>" class="overlay"></a>-->
 									</li>
 									<?php
 									endwhile;?>
