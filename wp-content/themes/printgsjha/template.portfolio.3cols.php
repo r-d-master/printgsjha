@@ -34,10 +34,11 @@ get_header(); ?>
 										<?php
 										$thumbId = get_image_id_by_link ( get_post_meta($post->ID, 'snbp_pitemlink', true) );
 										$thumb = wp_get_attachment_image_src($thumbId, 'portfolio-thumb', false);
+										$large = wp_get_attachment_image_src($thumbId, 'large', false);
 
 										if (!$thumb == ''){ ?>
 
-										<img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  />
+										<a href="<?php echo $large[0] ?>" class="prettyPhoto" title="<?php the_title(); ?>"><img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  /></a>
 
 										<?php } else { ?>
 
@@ -49,7 +50,7 @@ get_header(); ?>
 										<div class="details">
 											<?php the_title(); ?>
 										</div>
-										<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="overlay fancybox"></a>
+										<!--<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="overlay fancybox"></a>-->
 									</li>
 									<?php
 									endwhile;?>
