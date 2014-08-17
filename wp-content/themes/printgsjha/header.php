@@ -108,7 +108,7 @@
 							<input type="text" id="s" name="s" value="<?php _e( 'type your search here', 'site5framework' ); ?>" onFocus="this.value=''" />
 							<input type="submit" value="" />
 						</form>-->
-						<p style="font-family:ComfortaaBold;font-size:17px;line-height:1.3;margin-bottom:-13%;color:transparent;background:#F82C6D;padding:4%; border-radius:5px;">Free delivery over £100</p><br/>
+						<p style="font-family:ComfortaaBold;font-size:17px;line-height:1.3;margin-bottom:-13%;color:#fff;background:#F82C6D;padding:4%; border-radius:5px;">Free delivery over £100</p><br/>
 						<p style="font-family:ComfortaaBold;font-size:20px;line-height:1.3;margin-bottom:-5%;">Call: 0207 993 8380<br/>info@printpedia.co.uk</p>
 					</div>
 					<!-- end #topSearch -->
