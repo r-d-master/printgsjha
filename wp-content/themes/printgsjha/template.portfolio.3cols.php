@@ -38,7 +38,7 @@ get_header(); ?>
 
 										if (!$thumb == ''){ ?>
 
-										<a href="<?php echo $large[0] ?>" class="fancybox" title="<?php the_title(); ?>"><img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  /></a>
+										<img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  />
 
 										<?php } else { ?>
 
@@ -50,6 +50,7 @@ get_header(); ?>
 										<div class="details">
 											<?php the_title(); ?>
 										</div>
+										<a href="<?php echo $large[0] ?>" class="fancybox" title="<?php the_title(); ?>"></a>
 										<!--<a title="<?php the_title(); ?>" class="overlay"></a>-->
 									</li>
 									<?php
