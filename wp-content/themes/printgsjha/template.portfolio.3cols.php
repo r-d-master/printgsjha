@@ -38,7 +38,7 @@ get_header(); ?>
 
 										if (!$thumb == ''){ ?>
 
-										<a href="<?php echo $large[0] ?>" class="prettyPhoto overlay" title="<?php the_title(); ?>"><img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  /></a>
+										<a href="<?php echo $large[0] ?>" title="<?php the_title(); ?>"><img src="<?php echo $thumb[0] ?>" alt="<?php the_title(); ?>"  /></a>
 
 										<?php } else { ?>
 
