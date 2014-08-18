@@ -112,8 +112,8 @@ get_header();
 	                <div class="cphone"><strong><?php _e('Telephone:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_phone') ?></div>
 	               <!-- <div class="cphone"><strong><?php _e('Fax:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_fax') ?></div>-->
 	                <div class="cemail"><strong><?php _e('E-mail:', 'site5framework') ?></strong> <?php echo of_get_option('snb_contact_email') ?></div>
-	                <img src="http://printpedia.co.uk/wp-content/uploads/2014/08/PP-PrintPedia.jpg" style="
-    width: 25%;
+	                <img src="http://printpedia.co.uk/wp-content/uploads/2014/08/Print-Pedia.png" style="
+    width: 30%;
     margin-left: 5em;
 " />
 
