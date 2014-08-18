@@ -82,7 +82,7 @@
 
 				</div>
 				<!-- end #copyright -->
-				
+				<div class="fb-like-box" id="facebookprint" style="display:none;" data-href="https://www.facebook.com/printpediauk" data-width="220" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
 			</footer> <!-- end footer -->
 		
 		</div> <!-- end #container -->
