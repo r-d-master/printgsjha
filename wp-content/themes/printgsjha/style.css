@@ -1025,3 +1025,143 @@ clear:both;
    font-family:Georgia, 'Times New Roman', Times, serif;
    text-align: justify;
 }
+
+header #customquote {
+	position: absolute;
+	bottom: 160px;
+	left: 5px;
+}
+
+div.wpcf7 {
+font-size: 16px;
+font-family: ComfortaaBold;
+color: #BFB0BE;
+background-color: #2E192D;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+overflow: hidden;
+background: -webkit-gradient(linear, center top, center bottom, from(#5A395A), to(#2E192D));
+background: -webkit-linear-gradient(-90deg, #5A395A, #2E192D);
+background: -moz-linear-gradient(-90deg, #5A395A, #2E192D);
+background: -ms-linear-gradient(-90deg, #5A395A, #2E192D);
+background: -o-linear-gradient(-90deg, #5A395A, #2E192D);
+background: linear-gradient(-90deg, #5A395A, #2E192D);
+-pie-background: linear-gradient(-90deg, #5A395A, #2E192D);
+-webkit-border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+border-radius: 8px 8px 8px 8px;
+position: relative;
+}
+.wpcf7 p {
+line-height: 25px;
+margin-top: 2%;
+margin-right: 2%;
+margin-bottom: 1.625em;
+margin-left: 2%;
+clear: both;
+overflow: hidden;
+position: relative;
+}
+.wpcf7 input {
+font-size: 16px;
+font-family: ComfortaaBold;
+line-height: 1;
+color: #F5C2F3;
+width: 63%;
+padding-top: 7px;
+padding-right: 7px;
+padding-bottom: 7px;
+padding-left: 7px;
+margin-top: -25px;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 0;
+border-top-color: #7A6379;
+border-right-color: #7A6379;
+border-bottom-color: #7A6379;
+border-left-color: #7A6379;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-style: solid;
+float: right;
+background-color: #210D20;
+background: -webkit-gradient(linear, center top, center bottom, from(#210D20), to(#3D173A));
+background: -webkit-linear-gradient(-90deg, #210D20, #3D173A);
+background: -moz-linear-gradient(-90deg, #210D20, #3D173A);
+background: -ms-linear-gradient(-90deg, #210D20, #3D173A);
+background: -o-linear-gradient(-90deg, #210D20, #3D173A);
+background: linear-gradient(-90deg, #210D20, #3D173A);
+-pie-background: linear-gradient(-90deg, #210D20, #3D173A);
+-webkit-border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+border-radius: 4px 4px 4px 4px;
+}
+.wpcf7 input.wpcf7-submit[type=submit] {
+font-family: ComfortaaBold;
+color: #F5C2F3;
+background-color: #210D20;
+width: auto;
+padding-top: 7px;
+padding-right: 30px;
+padding-bottom: 7px;
+padding-left: 30px;
+margin-top: 0;
+border-top-color: #050205;
+border-right-color: #050205;
+border-bottom-color: #050205;
+border-left-color: #050205;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-style: solid;
+float: right;
+background-color: #210D20;
+background: -webkit-gradient(linear, center top, center bottom, from(#210D20), to(#120711));
+background: -webkit-linear-gradient(-90deg, #210D20, #120711);
+background: -moz-linear-gradient(-90deg, #210D20, #120711);
+background: -ms-linear-gradient(-90deg, #210D20, #120711);
+background: -o-linear-gradient(-90deg, #210D20, #120711);
+background: linear-gradient(-90deg, #210D20, #120711);
+-pie-background: linear-gradient(-90deg, #210D20, #120711);
+-webkit-border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+border-radius: 4px 4px 4px 4px;
+position: relative;
+}
+.wpcf7 textarea {
+font-size: 16px;
+color: #F5C2F3;
+background-color: #0D1B21;
+width: 63%;
+padding-top: 7px;
+padding-right: 7px;
+padding-bottom: 7px;
+padding-left: 7px;
+margin-top: -25px;
+border-top-color: #7A6379;
+border-right-color: #7A6379;
+border-bottom-color: #7A6379;
+border-left-color: #7A6379;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-style: solid;
+float: right;
+background-color: #210D20;
+background: -webkit-gradient(linear, center top, center bottom, from(#210D20), to(#3D173A));
+background: -webkit-linear-gradient(-90deg, #210D20, #3D173A);
+background: -moz-linear-gradient(-90deg, #210D20, #3D173A);
+background: -ms-linear-gradient(-90deg, #210D20, #3D173A);
+background: -o-linear-gradient(-90deg, #210D20, #3D173A);
+background: linear-gradient(-90deg, #210D20, #3D173A);
+-pie-background: linear-gradient(-90deg, #210D20, #3D173A);
+-webkit-border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+border-radius: 4px 4px 4px 4px;
+}

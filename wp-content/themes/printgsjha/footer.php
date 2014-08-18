@@ -22,6 +22,7 @@
 					<?php if ( is_active_sidebar( 'footer-2' ) ) : ?>
 
 						<?php dynamic_sidebar( 'footer-2' ); ?>
+						<div id="quote" style="display:none;width:600px;"><?php echo do_shortcode( '[contact-form-7 id="24" title="Contact form 1"]' ); ?></div>
 
 					<?php else : ?>
 

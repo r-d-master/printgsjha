@@ -39,10 +39,12 @@ jQuery(document).ready(function($){
     });
     $(".fancybox").fancybox({
         openEffect  : 'elastic',
+        closeEffect : 'elastic'
+    });
+    $(".fanform").fancybox({
+        openEffect  : 'elastic',
         closeEffect : 'elastic',
-        helpers     : {
-            title   : { type : 'inside' }
-        }
+        padding :0
     });
 
 

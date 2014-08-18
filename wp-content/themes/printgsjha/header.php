@@ -95,6 +95,11 @@
 					<?php }?>
 					<!-- end #logo -->
 
+					<!-- begin #customquote -->
+					<div id="customquote">
+					<a href="#quote" class="fancybox" style="font-family:ComfortaaBold;font-size:17px;color:#fff;background:#F82C6D;padding:6%; border-radius:5px;white-space:nowrap;">Get Custom Quote</a>
+					</div>
+
 					<!-- begin #socialIcons -->
 					<div id="socialIcons">
 						<a href="<?php echo of_get_option('snb_twitter') ?>" class="twitter tooltip" title="<?php _e( 'Follow Us on Twitter', 'site5framework' ); ?>"><?php _e( 'Follow Us on Twitter', 'site5framework' ); ?></a>
