@@ -19,7 +19,7 @@
 		<meta name="keywords" content="<?php wp_title(); ?>, <?php echo of_get_option('snb_metakeywords')  ?>" />
 		<meta name="revisit-after" content="<?php echo of_get_option('snb_revisitafter')  ?> days" />
 		<?php } ?>
-		<meta name="author" content="www.gsjha.com">
+		<!--<meta name="author" content="www.gsjha.com">-->
 
 		<?php if ( of_get_option('snb_enablerobot')== '1') { ?>
 
