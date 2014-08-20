@@ -911,7 +911,7 @@ text-transform:uppercase;
 /******************************************************************
 19.	FOOTER ELEMENTS
 ******************************************************************/
-footer .footerWidgets { padding:10px 0 25px; overflow:hidden; }
+footer .footerWidgets { padding:10px 0 0; overflow:hidden; }
 footer .boxFooter { width:220px; float:left; margin-right:24px;}
 footer .boxFooter:last-child { margin-right:0;}
 
@@ -955,7 +955,7 @@ line-height:170%;
 background:url(library/images/ico_bc.png) 100% 15px no-repeat;
 padding:15px 0;
 border-top:1px solid #ddd;
-border-bottom:1px solid #ddd;
+/*border-bottom:1px solid #ddd;*/
 color:#666;
 margin-bottom:15px;
 }
