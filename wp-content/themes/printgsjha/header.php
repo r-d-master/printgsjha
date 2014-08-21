@@ -19,7 +19,7 @@
 		<meta name="keywords" content="<?php wp_title(); ?>, <?php echo of_get_option('snb_metakeywords')  ?>" />
 		<meta name="revisit-after" content="<?php echo of_get_option('snb_revisitafter')  ?> days" />
 		<?php } ?>
-		<!--<meta name="author" content="www.gsjha.com">-->
+		<meta name="author" content="printpedia">
 		<meta name="google-site-verification" content="sCclQwv3Wvh-I8AeOTR3z5vQQEQANvdbwRY7Fjs_FDM" />
 
 		<?php if ( of_get_option('snb_enablerobot')== '1') { ?>
