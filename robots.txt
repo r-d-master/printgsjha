@@ -15,6 +15,7 @@ Disallow: ?comments=*
 Disallow: /search?
 Disallow: /?p=*
 Disallow: /go/
+Allow: /wp-content/uploads/
 
 
 User-agent: Mediapartners-Google*
