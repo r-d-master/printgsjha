@@ -5,7 +5,7 @@
 get_header(); ?>
 			<div id="content" class="clearfix">
 
-				<h1><?php the_title(); ?> <?php if ( !get_post_meta($post->ID, 'snbpd_pagedesc', true)== '') { ?><?php }?> <span><?php echo get_post_meta($post->ID, 'snbpd_pagedesc', true); ?></span></h1>
+				<h1><?php the_title(); ?></h1>
 
 				<div class="hrThickFull"></div>
 
