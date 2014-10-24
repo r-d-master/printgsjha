@@ -24,7 +24,7 @@ function action_add_meta_boxes() {
 		);
 	}
 }
-
+include("facebook_widget.php");
 /*add_filter('term_links-portfolio', 'ad_filter_links');
 
 function ad_filter_links($term_links) {
