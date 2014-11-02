@@ -38,8 +38,7 @@ get_header(); ?>
 
 							<h2 class="blogpost-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e( 'Permanent Link to', 'site5framework' ); ?> <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 
-							<p class="meta"><?php _e("BY", "site5framework"); ?> <?php the_author_posts_link(); ?> <span class="amp"> </span>
-							<?php _e("IN", "site5framework"); ?> <?php the_category(', '); ?> <span class="commentscount"><?php comments_popup_link(__('NO COMMENTS YET', 'site5framework'), __('1 COMMENT', 'site5framework'), __('% COMMENTS', 'site5framework')); ?></span><?php $post_tags = wp_get_post_tags($post->ID);
+							<p class="meta"><span class="commentscount"><?php comments_popup_link(__('NO COMMENTS YET', 'site5framework'), __('1 COMMENT', 'site5framework'), __('% COMMENTS', 'site5framework')); ?></span><?php $post_tags = wp_get_post_tags($post->ID);
 							if(!empty($post_tags)) {?>
 								<span class="tags">
 									<?php the_tags('', ', ', ''); ?>
