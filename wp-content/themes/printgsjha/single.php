@@ -2,7 +2,7 @@
 
 			<div id="content" class="clearfix">
 
-				<h1><?php _e("Our Blog", "site5framework"); ?>
+				<!--<h1><?php _e("Our Blog", "site5framework"); ?>
 				<?php
 				$singledescpage = of_get_option('snb_singledesc');
 				$singledesc = get_post_meta($singledescpage, 'snbpd_pagedesc');
@@ -12,7 +12,7 @@
 				echo ' / <span>';
 				echo $singledesc[0].'</span>';
 				}?>
-				</h1>
+				</h1>-->
 
 				<div class="hrThickFull"></div>
 
