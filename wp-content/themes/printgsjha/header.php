@@ -21,6 +21,7 @@
 		<?php } ?>
 		<meta name="author" content="printpedia">
 		<meta name="google-site-verification" content="sCclQwv3Wvh-I8AeOTR3z5vQQEQANvdbwRY7Fjs_FDM" />
+		<meta name="msvalidate.01" content="4087CB360891F3D889FEF5A6757A5BB8" />
 
 		<?php if ( of_get_option('snb_enablerobot')== '1') { ?>
 
