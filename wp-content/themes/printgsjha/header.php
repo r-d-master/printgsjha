@@ -10,7 +10,7 @@
 		<meta charset="utf-8">
 		<!--[if ie]><meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/><![endif]-->
 
-		<title><?php wp_title( ' - ', true, 'right' ); ?> <?php bloginfo('name'); ?></title>
+		<title><?php wp_title( ' - ', true, 'right' ); ?> Printing In Harrow</title>
 
 		<?php if ( of_get_option('snb_enablemeta')== '1') { ?>
 
